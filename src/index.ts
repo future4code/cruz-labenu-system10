@@ -6,7 +6,7 @@ const app: Express = express()
 app.use(express.json())
 app.use(cors())
 
-app.get('/studunts', (req: Request, res: Response) => {
+app.get('/students', (req: Request, res: Response) => {
    
    res.end()
 })
